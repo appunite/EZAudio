@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "EZAudioAppUnite"
-    s.version      = "1.1.9"
+    s.version      = "1.1.10"
     s.summary      = "A simple, intuitive audio framework for iOS and OSX useful for anyone doing audio processing and/or audio-based visualizations."
     s.homepage     = "https://github.com/syedhali/EZAudio"
     s.screenshots  = "https://s3-us-west-1.amazonaws.com/ezaudio-media/EZAudioSummary.png"
@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
 
     s.subspec 'Full' do |full|
         full.dependency 'TPCircularBuffer', '1.1'
-        full.dependency 'EZAudio/Core'
+        full.dependency 'EZAudioAppUnite/Core'
     end
 end
